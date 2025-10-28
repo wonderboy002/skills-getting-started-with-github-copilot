@@ -74,6 +74,41 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* Participants styling */
+.participants {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #eee;
+}
+
+.participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.participants-list {
+  list-style: disc;
+  margin: 0;
+  margin-left: 20px;
+  max-height: 120px;
+  overflow: auto;
+  padding-right: 8px;
+}
+
+.participant-item {
+  padding: 4px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+/* subtle empty-state styling for participants */
+.participants .info {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
